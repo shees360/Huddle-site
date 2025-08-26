@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle Page</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'Open Sans';
+            src: url(assets/fonts/open-sans/OpenSans-VariableFont_wdth\,wght.ttf);
+        }
+        @font-face {
+            font-family: 'Poppins';
+            src: url(assets/fonts/poppins/Poppins-Regular.ttf);
+        }
+        body{
+            background-color: hsl(257, 40%, 49%);
+            box-sizing: border-box;
+            display: flex;
+            height: 100vh;
+            background-image: url(assets/images/bg-desktop.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 0;
+        }
+    
+        .container{
+            margin: auto;
+            width: min(75rem, 80%);
+        }
+        .logo{
+            width: 15%;
+            padding-bottom: 40;
+        }
+        
+        .illustration{
+            width: 120%;
+        }
+        h3{
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 40px;
+        }
+        .content{
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .con-body{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 150px;
+        }
+        .con-footer{
+            display: flex;
+            margin-top: 40;
+            margin-left: 80%;
+        }
+        .con-footer img{
+            cursor: pointer;
+            width: 20%;
+        }
+        .face{
+            margin-right: 10%;
+        }
+        .twit{
+            margin-right: 10%;
+        }
+        button{
+            font-family: 'Poppins', sans-serif;
+            background-color: white;
+            color: hsl(257, 40%, 49%);
+            border: none;
+            font-weight: 500;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+            width: 35%;
+            padding: 10px;
+            border-radius: 40px;
+        }
+        @media screen and (max-width: 900px) {
+            body{
+                background-image: url(assets/images/bg-mobile.svg);
+                justify-content: center;
+            }
+            .con-body{
+                display: inline;
+            }
+            .illustration{
+                width: 100%;
+            }
+            .logo{
+                width: 50%;
+                
+            }
+            h3{
+                text-align: center;
+                font-size: 21px;
+            }
+            .con-footer{
+                margin-left: 20%;
+            }
+            .con-footer img{
+                width: 15%;
+            }
+            .content{
+                text-align: center;
+                font-size: 12px;
+                margin-bottom: 10;
+            }
+            button{
+                width: 80%;
+                margin-left: 10%;
+                margin-bottom: 30;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="con-head">
+            <img src="assets/images/logo.svg" alt="" class="logo">
+        </div>
+        <div class="con-body">
+            <div class="con-img">
+                <img src="assets/images/illustration-mockups.svg" alt="" class="illustration">
+            </div>
+            <div class="con">
+                <h3>Build The Community Your Fans Will Love</h3>
+                <p class="content">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <button>Register</button>
+        </div>
+            </div>
+            <div class="con-footer">
+                <img src="assets/images/facebook.png" alt="" class="face">
+                <img src="assets/images/twitter.png" alt="" class="twit">
+                <img src="assets/images/instagram.png" alt="" class="insta">
+            </div>
+    </div>
+</body>
+</html>
