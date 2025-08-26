@@ -26,7 +26,7 @@ Mobile Design
 # Links
 
 - Repository Url - [Repo Url](https://github.com/shees360/Huddle-site.git)
-- Live Url - 
+- Live Url - [Live Site](https://shees360.github.io/Huddle-site/)
 
 # Built with
 
@@ -38,3 +38,4 @@ Mobile Design
 - Name: shees
 
 - Frontend-Mentor: [@shees360](https://www.frontendmentor.io/profile/shees360)
+
